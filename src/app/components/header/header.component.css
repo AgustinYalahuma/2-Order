@@ -51,7 +51,7 @@
   cursor: text;
 }
 .header .nav-bar .flex-item {
-  box-shadow: 2px 2px 4px 0 #000000;
+  box-shadow: 1px 1px 0 0 #000000;
 }
 .header .nav-bar input {
   background-color: transparent;
@@ -83,3 +83,14 @@
   cursor: pointer;
   color: #fff;
 }
+.login-form .form-sign-in {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  text-align: center;
+  background-color: green;
+  padding: 20px;
+}
+/* Necesito dejar centrado el .form-sign-in y hacer que aparezca unicamente cuando se da clic en el boton Sign in */
